@@ -156,7 +156,7 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 # Change this to the production url
 PRODUCTION_URL = 'http://localhost:8000'
 
-ADMIN_EMAIL = 'your admin email'
+ADMIN_EMAIL = 'example@gmail.com'
 
 # Set True or False to view/hide
 SHOW_WORKSHOP_STATS = True
@@ -168,3 +168,15 @@ LOGIN_REDIRECT_URL = '/workshop/login'
 SESSION_EXPIRE_AT_BROWSER_CLOSE = True
 SESSION_SAVE_EVERY_REQUEST = True
 SESSION_COOKIE_AGE = 3600
+
+# Email Connection Settings (using console backend for development)
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
+EMAIL_HOST = "smtp.gmail.com"          # Sample SMTP host
+EMAIL_PORT = 587                       # Standard TLS port
+EMAIL_HOST_USER = "foess@gmail.com"  # Sample email address
+EMAIL_HOST_PASSWORD = "password123"    # Dummy password
+EMAIL_USE_TLS = True                   # Enable TLS
+EMAIL_TIMEOUT = 300
+SENDER_EMAIL = "example@gmail.com"     # Who the emails appear from
+

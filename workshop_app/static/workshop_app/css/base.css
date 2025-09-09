@@ -1,19 +1,60 @@
-/**
- * Footer Styles
- */
-.navbar {
-    z-index: 1000;
+{% load static %}
+<style>
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url("{% static 'images/IIT_Bombay1.jpg' %}") no-repeat center center fixed;
+    background-size: cover;
 }
-.footer {
-    position: fixed;
-    bottom: 0;
+
+/* Center login card */
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Login card styling */
+.login-box {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
     width: 100%;
-    background-color: #61615F;
+    max-width: 400px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.btn-primary {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #004aad;
     color: white;
-    text-align: center;
-    z-index: 100;
+    font-weight: bold;
+    cursor: pointer;
 }
-.base-content {
-    padding-top: 5em;
-    padding-bottom: 5em;
+
+.btn-primary:hover {
+    background-color: #00337a;
 }
+
+.login-box a {
+    color: #004aad;
+    text-decoration: none;
+}
+
+.login-box a:hover {
+    text-decoration: underline;
+}
+</style>

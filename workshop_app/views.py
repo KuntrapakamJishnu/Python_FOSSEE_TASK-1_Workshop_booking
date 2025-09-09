@@ -477,8 +477,8 @@ def view_profile(request, user_id):
 def view_own_profile(request):
     """User can view own profile """
     user = request.user
-    if user.is_superuser:
-        return redirect("admin")
+    #if user.is_superuser:
+    #    return redirect("admin")
     profile = user.profile
     if request.method == 'POST':
         form = ProfileForm(request.POST, user=user, instance=profile)

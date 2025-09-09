@@ -13,7 +13,31 @@ Including another URLconf
     1. Import the include() function: from django.conf.urls import url, include
     2. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls'))
 """
-from django.conf.urls import url, include
+'''
+
+
+from django.urls import path, include, re_path
+from django.conf.urls.static import static
+from django.contrib import admin
+from workshop_portal import views
+from django.conf import settings
+
+
+
+urlpatterns = [
+    re_path(r'^admin/', admin.site.urls),
+    path(r'^$', views.index),
+    path(r'^workshop/', include('workshop_app.urls')),
+    path(r'^reset/', include('django.contrib.auth.urls')),
+    path(r'^page/', include('cms.urls')),
+    path(r'^statistics/', include('statistics_app.urls')),
+]
+
+
+urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+'''
+
+from django.urls import path, include, re_path
 from django.conf.urls.static import static
 from django.contrib import admin
 from workshop_portal import views
@@ -21,12 +45,18 @@ from django.conf import settings
 
 
 urlpatterns = [
-    url(r'^admin/', admin.site.urls),
-    url(r'^$', views.index),
-    url(r'^workshop/', include('workshop_app.urls')),
-    url(r'^reset/', include('django.contrib.auth.urls')),
-    url(r'^page/', include('cms.urls')),
-    url(r'^statistics/', include('statistics_app.urls')),
+    # Admin
+    path('admin/', admin.site.urls),
+
+    # Homepage (regex ^$ → re_path)
+    re_path(r'^$', views.index, name='index'),
+
+    # Apps
+    path('workshop/', include('workshop_app.urls')),
+    path('reset/', include('django.contrib.auth.urls')),
+    path('page/', include('cms.urls')),
+    path('statistics/', include('statistics_app.urls')),
 ]
 
+# Media files
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
