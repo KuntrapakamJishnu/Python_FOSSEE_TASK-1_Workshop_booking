@@ -21,6 +21,15 @@ Features
 
 __NOTE__: Check docs/Getting_Started.md for more info.
 
+Setup Instructions
+
+Clone the repository:
+git clone https://github.com/KuntrapakamJishnu/Python_FOSSEE_Task-1_Workshop_booking.git
+cd workshop_booking
+Open the project in your browser:
+python manage.py runserver
+
+
 Working website images:
 
 
