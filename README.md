@@ -1,9 +1,11 @@
-# **Workshop Booking**
+Workshop Booking – UI/UX Enhancement
+
+This repository contains my improvements to the Workshop Booking website provided by FOSSEE# **Workshop Booking**
 
 > This website is for coordinators to book a workshop(s), they can book a workshop based on instructors posts or can propose a workshop date based on their convenience.
 
 
-### Features
+Features
 * Statistics
     1. Instructors Only
         * Monthly Workshop Count
@@ -29,3 +31,46 @@ Working website images:
 <img width="1817" height="391" alt="Screenshot 2025-09-10 003333" src="https://github.com/user-attachments/assets/5041d5e6-d9b2-4958-8a46-ad6231996ad3" />
 <img width="1737" height="888" alt="Screenshot 2025-09-09 200753" src="https://github.com/user-attachments/assets/a73084d1-010d-483b-a5b3-023c05a2cc57" />
 <img width="1892" height="780" alt="Screenshot 2025-09-09 193710" src="https://github.com/user-attachments/assets/11ea529f-ab8c-4fe7-a0b1-5a337a2d8bfa" />
+
+Reasoning
+1. What design principles guided your improvements?
+
+Mobile-first design: Prioritized small screen readability.
+
+Consistency: Kept a uniform color palette, button styles, and typography.
+
+Clarity: Improved spacing and grouping for readability.
+
+Affordance: Ensured buttons and links look clearly interactive.
+
+2. How did you ensure responsiveness across devices?
+
+Used Bootstrap grid system and media queries.
+
+Tested layout across multiple screen sizes (mobile, tablet, desktop).
+
+Ensured navigation collapses into a hamburger menu on smaller screens.
+
+3. What trade-offs did you make between design and performance?
+
+Chose Bootstrap (slightly larger CSS footprint) for faster development and consistent design patterns.
+
+Avoided heavy animations or large image assets to maintain fast load times.
+
+Kept external dependencies minimal to balance design and performance.
+
+4. What was the most challenging part of the task and how did you approach it?
+
+The main challenge was making the forms intuitive and responsive.
+
+Approach:
+
+Used card layouts to group form elements.
+
+Added proper input spacing, labels, and placeholder hints.
+
+Ensured accessibility with semantic HTML and aria-labels.
+
+📬 Submission
+
+Repository Link: https://github.com/KuntrapakamJishnu/Python_FOSSEE_TASK-1_Workshop_booking
