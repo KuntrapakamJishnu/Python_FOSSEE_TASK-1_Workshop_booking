@@ -26,7 +26,7 @@ Setup Instructions
 Follow these steps to set up and run the project locally:
 
 Clone the repository
-<git clone https://github.com/KuntrapakamJishnu/Python_FOSSEE_TASK-1_workshop_booking.git>
+<git clone https://github.com/KuntrapakamJishnu/Python_FOSSEE_TASK-1_workshop_booking.git/>
 cd workshop_booking
 
 Create and activate a virtual environment
