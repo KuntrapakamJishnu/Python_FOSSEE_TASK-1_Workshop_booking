@@ -21,12 +21,12 @@ Features
 
 __NOTE__: Check docs/Getting_Started.md for more info.
 
-⚙️ Setup Instructions
+Setup Instructions
 
 Follow these steps to set up and run the project locally:
 
 Clone the repository
-git clone https://github.com/<your-username>/workshop_booking.git
+<git clone https://github.com/KuntrapakamJishnu/Python_FOSSEE_TASK-1_workshop_booking.git>
 cd workshop_booking
 
 Create and activate a virtual environment
@@ -41,24 +41,24 @@ Install dependencies
 
 pip install -r requirements.txt
 
-Run database migrations
+##Run database migrations:
 
 python manage.py makemigrations
 python manage.py migrate
 
-Create a superuser (for accessing admin panel)
+##Create a superuser (for accessing admin panel)
 
 python manage.py createsuperuser
 
-Run the development server
+##Run the development server
 
 python manage.py runserver
 
 Open the site in your browser at:
-👉 http://127.0.0.1:8000/
+ http://127.0.0.1:8000/
 
 (Optional) Access the Django Admin Panel at:
-👉 http://127.0.0.1:8000/admin/
+ http://127.0.0.1:8000/admin/
 
 Working website images:
 
