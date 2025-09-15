@@ -20,4 +20,9 @@
 __NOTE__: Check docs/Getting_Started.md for more info.
 
 Working website images:
-<img width="1898" height="884" alt="Screenshot 2025-09-09 203356" src="https://github.com/user-attachments/assets/a8b7a635-9fe2-4b0d-811d-256811202e3f" />
+<img width="796" height="627" alt="Screenshot 2025-09-09 194913" src="https://github.com/user-attachments/assets/a24dff43-bfcc-4619-b58a-93666e98b41b" />
+<img width="1869" height="833" alt="Screenshot 2025-09-09 204008" src="https://github.com/user-attachments/assets/87e1e4bc-53dc-4aa4-ad54-63e994911335" />
+<img width="1649" height="773" alt="Screenshot 2025-09-09 200850" src="https://github.com/user-attachments/assets/19830a44-932f-467f-9684-bde30eeade54" />
+<img width="1817" height="391" alt="Screenshot 2025-09-10 003333" src="https://github.com/user-attachments/assets/5041d5e6-d9b2-4958-8a46-ad6231996ad3" />
+<img width="1737" height="888" alt="Screenshot 2025-09-09 200753" src="https://github.com/user-attachments/assets/a73084d1-010d-483b-a5b3-023c05a2cc57" />
+<img width="1892" height="780" alt="Screenshot 2025-09-09 193710" src="https://github.com/user-attachments/assets/11ea529f-ab8c-4fe7-a0b1-5a337a2d8bfa" />
