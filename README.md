@@ -110,6 +110,6 @@ Added proper input spacing, labels, and placeholder hints.
 
 Ensured accessibility with semantic HTML and aria-labels.
 
-📬 Submission
+Submission
 
 Repository Link: https://github.com/KuntrapakamJishnu/Python_FOSSEE_TASK-1_Workshop_booking
