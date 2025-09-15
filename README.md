@@ -18,3 +18,6 @@
     > Instructors can Accept, Reject or Delete workshops based on their preference, also they can postpone a workshop based on coordinators request.
 
 __NOTE__: Check docs/Getting_Started.md for more info.
+
+Working website images:
+<img width="1898" height="884" alt="Screenshot 2025-09-09 203356" src="https://github.com/user-attachments/assets/a8b7a635-9fe2-4b0d-811d-256811202e3f" />
